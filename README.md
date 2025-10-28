@@ -16,7 +16,7 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 | Endpoint to list rooms | `/rooms` |
 | Endpoint to get messages | `/messages` |
 | Endpoint to send message | `/messages ` |
-| Required headers | `__Bearer and Json` |
+| Required headers | `__Aurthorisation,Bearer token, content-type, Json` |
 | Sample full GET or POST request | `{
     "items": [
         {
@@ -50,8 +50,8 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 ## Section 2: ISS Current Location API (3 marks)
 | Criteria | Details |
 |---------|---------|
-| API Base URL | `_______________________________` |
-| Endpoint for current ISS location | `_______________________________` |
+| API Base URL | `https://api.openweathermap.org/` |
+| Endpoint for current ISS location | `/data/2.5/weatherlondon` |
 | Sample response format (example JSON) |
 ```
 ```
