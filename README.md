@@ -16,7 +16,7 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 | Endpoint to list rooms | `/rooms` |
 | Endpoint to get messages | `/messages` |
 | Endpoint to send message | `/messages ` |
-| Required headers | `__Authorisation and content type` |
+| Required headers | `__Bearer and Json` |
 | Sample full GET or POST request | `{
     "items": [
         {
