@@ -104,7 +104,7 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 ## Section 3: Geocoding API (LocationIQ or Mapbox or other) (6 marks)
 | Criteria | Details |
 |---------|---------|
-| Provider used (circle one) | **LocationIQ / Mapbox/ other -provide detail** |
+| Provider used (circle one) | **LocationIQ ** |
 | API Base URL | `https://us1.locationiq.com/` |
 | Endpoint for reverse geocoding | `/v1/reverse` |
 | Authentication method | `access token` |
@@ -145,23 +145,33 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 ## 🚀 Section 4: Epoch to Human Time Conversion (Python time module) (2 marks)
 | Criteria | Details |
 |---------|---------|
-| Library used | `_______________________________` |
-| Function used to convert epoch | `_______________________________` |
+| Library used | `import time` |
+| Function used to convert epoch | `time.ctime()` |
 | Sample code to convert timestamp |
 ```
+import time 
+
+Epochtime = 30000 
+convert = time.ctime(Epochtime) 
+
+
+print(convert)
+
 ```
 |
-| Output (human-readable time) | `_______________________________` |
+| Output (human-readable time) | `Thu Jan  1 08:20:00 1970` |
 ---
 ## 🚀 Section 5: Web Architecture & MVC Design Pattern (12 marks)
 ### 🚀 Web Architecture – Client-Server Model
-- **Client**:
-- **Server**:
+- **Client**: to make changes it must talk to the server buy sending requests
+- **Server**: processes the request and sends back infomation
+- <img width="1066" height="525" alt="image" src="https://github.com/user-attachments/assets/e00dd964-7483-4ad7-ad27-da390d4dfdf4" />
+
 - (Explain the communication between them & include a block diagram )
 ### 🚀 RESTful API Usage
--
--
--
+-Representational
+-State
+-Transfer
 ### 🚀 MVC Pattern in Space Bot
 | Component | Description |
 |------------|-------------|
