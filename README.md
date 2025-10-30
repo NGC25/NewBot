@@ -105,13 +105,40 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 | Criteria | Details |
 |---------|---------|
 | Provider used (circle one) | **LocationIQ / Mapbox/ other -provide detail** |
-| API Base URL | `_______________________________` |
-| Endpoint for reverse geocoding | `_______________________________` |
-| Authentication method | `_______________________________` |
-| Required query parameters | `_______________________________` |
-| Sample request with latitude/longitude | `_______________________________` |
+| API Base URL | `https://us1.locationiq.com/` |
+| Endpoint for reverse geocoding | `/v1/reverse` |
+| Authentication method | `access token` |
+| Required query parameters | `?key=pk.6cf6740e8ca0f1c50b4985d3a68bc824&` |
+| Sample request with latitude/longitude | `https://us1.locationiq.com?key=pk.6cf6740e8ca0f1c50b4985d3a68bc824&lat=50.172&lon=-1.852&format=json` |
 | Sample JSON response (formatted example) |
 ```
+{
+    "place_id": "274040031",
+    "licence": "https://locationiq.com/attribution",
+    "osm_type": "node",
+    "osm_id": "7817017136",
+    "lat": "51.5074062",
+    "lon": "-0.1276915",
+    "display_name": "Mileage Central Point of London Plaque, Charing Cross, Seven Dials, Waterloo, City of Westminster, Greater London, England, WC2N 5DX, United Kingdom",
+    "address": {
+        "memorial": "Mileage Central Point of London Plaque",
+        "road": "Charing Cross",
+        "neighbourhood": "Seven Dials",
+        "suburb": "Waterloo",
+        "city": "City of Westminster",
+        "state_district": "Greater London",
+        "state": "England",
+        "postcode": "WC2N 5DX",
+        "country": "United Kingdom",
+        "country_code": "gb"
+    },
+    "boundingbox": [
+        "51.5073562",
+        "51.5074562",
+        "-0.1277415",
+        "-0.1276415"
+    ]
+}
 ```
 |
 ---
