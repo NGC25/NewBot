@@ -54,6 +54,50 @@ Webex api: MDIzZGJmN2QtMDFkOS00MDhkLWEwNzQtZjMzYWMxN2FjNjhjYzkwZWY3MTItNjBj_P0A1
 | Endpoint for current ISS location | `/data/2.5/weatherlondon` |
 | Sample response format (example JSON) |
 ```
+{
+    "coord": {
+        "lon": 21,
+        "lat": 12
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 308.3,
+        "feels_like": 305.95,
+        "temp_min": 308.3,
+        "temp_max": 308.3,
+        "pressure": 1006,
+        "humidity": 16,
+        "sea_level": 1006,
+        "grnd_level": 950
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.56,
+        "deg": 130,
+        "gust": 1.81
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1761834679,
+    "sys": {
+        "country": "TD",
+        "sunrise": 1761798483,
+        "sunset": 1761840665
+    },
+    "timezone": 3600,
+    "id": 242048,
+    "name": "Salamat Region",
+    "cod": 200
+}
 ```
 |
 ---
