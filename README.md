@@ -163,7 +163,7 @@ print(convert)
 ---
 ## 🚀 Section 5: Web Architecture & MVC Design Pattern (12 marks)
 ### 🚀 Web Architecture – Client-Server Model
-- **Client**: to make changes it must talk to the server buy sending requests
+- **Client**: to make changes it must talk to the server by sending requests
 - **Server**: processes the request and sends back infomation
 - <img width="1066" height="525" alt="image" src="https://github.com/user-attachments/assets/e00dd964-7483-4ad7-ad27-da390d4dfdf4" />
 
@@ -179,9 +179,9 @@ print(convert)
 | **View** | |
 | **Controller** | |
 #### Example:
-- Model:
-- View:
-- Controller:
+- Model: Manages data
+- View: manages what the users sees
+- Controller:Reads the users input and process comands.
 ---
 ### 🚀 Notes
 - Use official documentation for accuracy (e.g. developer.webex.com, locationiq.com
